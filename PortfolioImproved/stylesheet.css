@@ -1,0 +1,70 @@
+h1, h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: aliceblue 0px 0px 20px;
+}
+
+body {
+    background: url(Images/Background/RealBackground.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+p , .Socials{
+    color: #fafafa; /* Simplified color notation */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+
+    text-shadow: aliceblue 0px 0px 20px;
+}
+
+.Intro {
+    border-radius: 30px;
+    margin: auto 300px auto;
+}
+
+nav a:hover {
+    background-color: rgba(238, 186, 0, 0.54);
+    border-radius: 10px;
+    text-shadow: rgb(0, 136, 255) 0px 10px 50px;
+}
+
+.TopBar {
+    background-color: rgba(4, 6, 8, 0.137);
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+nav a {
+    color: aliceblue;
+    display: inline;
+    padding: 14px 16px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-shadow: aliceblue 0px 0px 10px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+
+}
+
+.IntroSection {
+    padding-top: 30px;
+}
+
+.SocialMedia {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.SocialMedia a {
+    padding: 14px 16px;
+    color: #fafafa;
+    text-decoration: none;
+}
